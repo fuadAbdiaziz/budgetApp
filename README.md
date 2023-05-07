@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+This is a budget app created using React. The app has six components, namely Expense, Home, Income, Navbar, Profile, and Table. The main functionality of the app is to add and manage incomes and expenses.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features
+Add new incomes and expenses
+View a summary of total income, total expense, and profit
+View the last three incomes and expenses
+Delete an expense
+Installation
+To run this app, follow the steps below:
 
-## Available Scripts
+Clone this repository to your local machine using git clone https://github.com/<your-username>/budget-app.git
+Install the required dependencies by running npm install
+Start the app using npm start
+Open http://localhost:3000 in your browser
+Components
+Home
+This component is the main page of the app. It displays a form to add new incomes and expenses, a summary of total income, total expense, and profit, and a table to view the last three incomes and expenses.
 
-In the project directory, you can run:
+Table
+This component is used to display the data in a table format. It has a button to delete an expense.
 
-### `npm start`
+Database
+The app uses a mock database db.json that contains sample data for incomes and expenses.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Development
+To make changes to this app, follow the steps below:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Fork this repository to your GitHub account
+Clone the forked repository to your local machine
+Install the required dependencies by running npm install
+Start the development server using npm start
+Make changes to the code and test it
+Commit and push the changes to your forked repository
+Create a pull request to merge your changes with the main repository
+Conclusion
+This budget app is a simple yet effective tool to manage your incomes and expenses. You can use it to keep track of your financial transactions and make informed decisions about your budget.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
