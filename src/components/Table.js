@@ -1,6 +1,17 @@
 import React from "react";
 
-function Table({data}) {
+function Table({ data }) {
+  const handleDelete = async (id) => {
+    try {
+      const response = await fetch(`http://localhost:4000/users/${id}`, {
+        method: "DELETE",
+      });
+      console.log(response);
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
   return (
     <>
       <tr>
@@ -8,8 +19,14 @@ function Table({data}) {
         <td>Ksh {data.amount}</td>
         <td>{data.date}</td>
         <td>{data.date}</td>
-        <td><button className="btn btn-sm btn-danger">Delete</button></td>
-
+        <td>
+          <button
+            className="btn btn-sm btn-danger"
+            onClick={() => handleDelete(data.id)}
+          >
+            Delete
+          </button>
+        </td>
       </tr>
     </>
   );

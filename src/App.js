@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import Expense from "./components/Expense";
 import Income from "./components/Income";
-import Profile from "./components/Profile";
+
 import { Route, Routes } from "react-router-dom";
 import { useEffect, useState } from "react";
 
@@ -24,10 +24,12 @@ function App() {
         setExpenses(data[0].expenses);
       })
       .catch((error) => console.error(error));
+
   }, [userid]);
-
-  console.log(`expenses`, expenses);
-
+  
+   console.log(`expenses`, expenses);
+  console.log(`incomes`, incomes);
+  console.log(data.imcome)
   return (
     <>
       <div className="container">
@@ -37,9 +39,9 @@ function App() {
             path="/"
             element={<Home incomes={incomes} expenses={expenses} />}
           />
-          <Route path="expense" element={<Expense  expenses={expenses} />} />
-          <Route path="income" element={<Income incomes={incomes} />} />
-          <Route path="profile" element={<Profile />} />
+          <Route path="expense" element={<Expense data={data} />} />
+          <Route path="income" element={<Income data={data} />} />
+         
         </Routes>
       </div>
     </>

@@ -6,44 +6,44 @@
       "expenses": [
         {
           "id": 1,
-          "amount": 50.0,
+          "amount": 50,
           "date": "2023-05-01"
         },
         {
           "id": 2,
-          "amount": 100.0,
+          "amount": 100,
           "date": "2023-04-25"
         },
         {
           "id": 3,
-          "amount": 200.0,
+          "amount": 200,
           "date": "2023-04-20"
         },
         {
           "id": 4,
-          "amount": 500.0,
+          "amount": 500,
           "date": "2023-04-20"
         },
         {
           "id": 5,
-          "amount": 100.0,
+          "amount": 100,
           "date": "2023-04-20"
         }
       ],
       "income": [
         {
           "id": 1,
-          "amount": 500.0,
+          "amount": 500,
           "date": "2023-05-01"
         },
         {
           "id": 2,
-          "amount": 1000.0,
+          "amount": 1000,
           "date": "2023-04-25"
         },
         {
           "id": 3,
-          "amount": 200.0,
+          "amount": 200,
           "date": "2023-04-20"
         }
       ]
@@ -54,24 +54,24 @@
       "expenses": [
         {
           "id": 1,
-          "amount": 30.0,
+          "amount": 30,
           "date": "2023-05-01"
         },
         {
           "id": 2,
-          "amount": 75.0,
+          "amount": 75,
           "date": "2023-04-25"
         }
       ],
       "income": [
         {
           "id": 1,
-          "amount": 800.0,
+          "amount": 800,
           "date": "2023-05-01"
         },
         {
           "id": 2,
-          "amount": 1200.0,
+          "amount": 1200,
           "date": "2023-04-25"
         }
       ]

@@ -10,7 +10,7 @@ function Income({ incomes }) {
       </>
     );
   });
-
+console.log(incomes)
   return (
     <div className="col-md-6">
       <h2>Expenses</h2>
